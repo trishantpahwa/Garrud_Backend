@@ -1,0 +1,28 @@
+{
+  "name": "garrud_backend",
+  "version": "1.0.0",
+  "description": "A backend for Garrud",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trishantpahwa/Garrud_Backend.git"
+  },
+  "author": "Trishant Pahwa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trishantpahwa/Garrud_Backend/issues"
+  },
+  "homepage": "https://github.com/trishantpahwa/Garrud_Backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
